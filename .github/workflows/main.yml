@@ -1,12 +1,11 @@
 name: CI
 
 on:
-  push:
+  pull_request:
     branches:
       - main
+
 #testing
 jobs:
   run-ci-template:
     uses: dougmendes/ci-template/.github/workflows/ci-template.yml@main
-    with:
-      python-version: '3.9'
