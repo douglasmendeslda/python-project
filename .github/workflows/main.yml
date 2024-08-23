@@ -1,9 +1,12 @@
 name: CI
 
-on: [push]
+on:
+  push:
+    branches:
+      - main
 
 jobs:
-  use-reusable-workflow:
-    uses: dougmendes/ci-template/.github/workflows/ci-template.yml@main  
+  run-ci-template:
+    uses: dougmendes/ci-template/.github/workflows/ci-template.yml@main
     with:
       python-version: '3.9'
