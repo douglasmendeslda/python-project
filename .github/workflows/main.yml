@@ -5,7 +5,7 @@ on:
     branches:
       - main
 
-#fs
+#f
 jobs:
   run-ci-template:
     uses: douglasmendeslda/ci-template/.github/workflows/ci-template.yml@main
