@@ -8,4 +8,4 @@ on:
 #fs
 jobs:
   run-ci-template:
-    uses: dougmendes/ci-template/.github/workflows/ci-template.yml@main
+    uses: douglasmendeslda/ci-template/.github/workflows/ci-template.yml@main
